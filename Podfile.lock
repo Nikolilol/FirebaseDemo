@@ -1,0 +1,255 @@
+PODS:
+  - BoringSSL (10.0.6):
+    - BoringSSL/Implementation (= 10.0.6)
+    - BoringSSL/Interface (= 10.0.6)
+  - BoringSSL/Implementation (10.0.6):
+    - BoringSSL/Interface (= 10.0.6)
+  - BoringSSL/Interface (10.0.6)
+  - Crashlytics (3.10.7):
+    - Fabric (~> 1.7.11)
+  - Fabric (1.7.11)
+  - Firebase/AdMob (5.13.0):
+    - Firebase/Core
+    - Google-Mobile-Ads-SDK (~> 7.35)
+  - Firebase/Auth (5.13.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (= 5.0.5)
+  - Firebase/Core (5.13.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.3.0)
+  - Firebase/CoreOnly (5.13.0):
+    - FirebaseCore (= 5.1.8)
+  - Firebase/Database (5.13.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (= 5.0.3)
+  - Firebase/Firestore (5.13.0):
+    - Firebase/CoreOnly
+    - FirebaseFirestore (= 0.15.0)
+  - Firebase/InAppMessagingDisplay (5.13.0):
+    - Firebase/CoreOnly
+    - FirebaseInAppMessagingDisplay (= 0.12.2)
+  - Firebase/Performance (5.13.0):
+    - Firebase/Core
+    - FirebasePerformance (= 2.2.1)
+  - Firebase/RemoteConfig (5.13.0):
+    - Firebase/Core
+    - FirebaseRemoteConfig (= 3.1.0)
+  - FirebaseABTesting (2.0.0):
+    - FirebaseCore (~> 5.0)
+    - Protobuf (~> 3.5)
+  - FirebaseAnalytics (5.3.0):
+    - FirebaseCore (~> 5.1)
+    - FirebaseInstanceID (~> 3.3)
+    - GoogleAppMeasurement (~> 5.3)
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - FirebaseAuth (5.0.5):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.1)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseAuthInterop (1.0.0)
+  - FirebaseCore (5.1.8):
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseDatabase (5.0.3):
+    - FirebaseCore (~> 5.0)
+    - leveldb-library (~> 1.18)
+  - FirebaseFirestore (0.15.0):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.1)
+    - FirebaseFirestore/abseil-cpp (= 0.15.0)
+    - "gRPC-C++ (~> 0.0.3)"
+    - leveldb-library (~> 1.20)
+    - nanopb (~> 0.3.8)
+    - Protobuf (~> 3.1)
+  - FirebaseFirestore/abseil-cpp (0.15.0):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.1)
+    - "gRPC-C++ (~> 0.0.3)"
+    - leveldb-library (~> 1.20)
+    - nanopb (~> 0.3.8)
+    - Protobuf (~> 3.1)
+  - FirebaseInAppMessaging (0.12.1):
+    - FirebaseAnalytics (~> 5.3)
+    - FirebaseCore (~> 5.1)
+    - FirebaseInstanceID (~> 3.3)
+    - GoogleUtilities/Environment (~> 5.0)
+  - FirebaseInAppMessagingDisplay (0.12.2):
+    - FirebaseCore
+    - FirebaseInAppMessaging (>= 0.12.0)
+  - FirebaseInstanceID (3.3.0):
+    - FirebaseCore (~> 5.1)
+    - GoogleUtilities/Environment (~> 5.3)
+    - GoogleUtilities/UserDefaults (~> 5.3)
+  - FirebasePerformance (2.2.1):
+    - FirebaseAnalytics (~> 5.3)
+    - FirebaseInstanceID (~> 3.3)
+    - FirebaseRemoteConfig (~> 3.1)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - GoogleUtilities/ISASwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+    - Protobuf (~> 3.5)
+  - FirebaseRemoteConfig (3.1.0):
+    - FirebaseABTesting (~> 2.0)
+    - FirebaseAnalytics (~> 5.3)
+    - FirebaseCore (~> 5.1)
+    - FirebaseInstanceID (~> 3.3)
+    - GoogleUtilities/Environment (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - Protobuf (~> 3.5)
+  - Google-Mobile-Ads-SDK (7.36.0)
+  - GoogleAppMeasurement (5.3.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - GoogleSignIn (4.2.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - GoogleToolboxForMac/Logger (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.1.4)":
+    - GoogleToolboxForMac/DebugUtils (= 2.1.4)
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.1.4)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.1.4)"
+  - GoogleUtilities/AppDelegateSwizzler (5.3.6):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (5.3.6)
+  - GoogleUtilities/ISASwizzler (5.3.6)
+  - GoogleUtilities/Logger (5.3.6):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (5.3.6):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (5.3.6):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (5.3.6)"
+  - GoogleUtilities/Reachability (5.3.6):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (5.3.6):
+    - GoogleUtilities/Logger
+  - "gRPC-C++ (0.0.5)":
+    - "gRPC-C++/Implementation (= 0.0.5)"
+    - "gRPC-C++/Interface (= 0.0.5)"
+  - "gRPC-C++/Implementation (0.0.5)":
+    - "gRPC-C++/Interface (= 0.0.5)"
+    - gRPC-Core (= 1.14.0)
+    - nanopb (~> 0.3)
+  - "gRPC-C++/Interface (0.0.5)"
+  - gRPC-Core (1.14.0):
+    - gRPC-Core/Implementation (= 1.14.0)
+    - gRPC-Core/Interface (= 1.14.0)
+  - gRPC-Core/Implementation (1.14.0):
+    - BoringSSL (~> 10.0)
+    - gRPC-Core/Interface (= 1.14.0)
+    - nanopb (~> 0.3)
+  - gRPC-Core/Interface (1.14.0)
+  - GTMOAuth2 (1.1.6):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.2.0):
+    - GTMSessionFetcher/Full (= 1.2.0)
+  - GTMSessionFetcher/Core (1.2.0)
+  - GTMSessionFetcher/Full (1.2.0):
+    - GTMSessionFetcher/Core (= 1.2.0)
+  - leveldb-library (1.20)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - Protobuf (3.6.1)
+
+DEPENDENCIES:
+  - Crashlytics (~> 3.10.7)
+  - Fabric (~> 1.7.11)
+  - Firebase/AdMob
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Database
+  - Firebase/Firestore
+  - Firebase/InAppMessagingDisplay
+  - Firebase/Performance
+  - Firebase/RemoteConfig
+  - GoogleSignIn
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BoringSSL
+    - Crashlytics
+    - Fabric
+    - Firebase
+    - FirebaseABTesting
+    - FirebaseAnalytics
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseDatabase
+    - FirebaseFirestore
+    - FirebaseInAppMessaging
+    - FirebaseInAppMessagingDisplay
+    - FirebaseInstanceID
+    - FirebasePerformance
+    - FirebaseRemoteConfig
+    - Google-Mobile-Ads-SDK
+    - GoogleAppMeasurement
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - "gRPC-C++"
+    - gRPC-Core
+    - GTMOAuth2
+    - GTMSessionFetcher
+    - leveldb-library
+    - nanopb
+    - Protobuf
+
+SPEC CHECKSUMS:
+  BoringSSL: e10f92a27043805c01071fe815a5cd98ae8212e7
+  Crashlytics: ccaac42660eb9351b9960c0d66106b0bcf99f4fa
+  Fabric: f233c9492b3bbc1f04e3882986740f7988a58edb
+  Firebase: 6df9a6114bc9f106a98fe83d5438d4d9833c2019
+  FirebaseABTesting: 1f50b8d50f5e3469eea54e7463a7b7fe221d1f5e
+  FirebaseAnalytics: 63202d2665de4e6adcbdce189135255d8b5962ba
+  FirebaseAuth: 9299ab178271bec7426967b05b2718bb6fc31f17
+  FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
+  FirebaseCore: fba2bfaa691c49028309b92e4dd37cc4b5512fbe
+  FirebaseDatabase: e2bcbc106adc4b11a2da3ec2eb63c0c4a44f2f54
+  FirebaseFirestore: 9e9411f13a0aba72d4f631899611d09e43734c48
+  FirebaseInAppMessaging: aa04bdbbee12aa132156e6085b3bfad7d6e0dcbb
+  FirebaseInAppMessagingDisplay: 5591606580c1ed8040fbf55c938a1ccc0caad3ef
+  FirebaseInstanceID: e2fa4cb35ef5558c200f7f0ad8a53e212215f93e
+  FirebasePerformance: 071ef097e7fb2d4f2f27fac1d4ed72ae3dd737d7
+  FirebaseRemoteConfig: 7e11c65f0769c09bff6947997c209515058c5318
+  Google-Mobile-Ads-SDK: 5bb4d2cea811842e104a24780caef63b4808e1bd
+  GoogleAppMeasurement: 5029d78f2b438bd30ffb44e6c558b57c21622727
+  GoogleSignIn: 591e46382014e591269f862ba6e7bc0fbd793532
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  GoogleUtilities: 95996bea7c7d9b8fb811b7507669a4a8762f80c7
+  "gRPC-C++": 19eec1ffd34de29453f5fab5b4697ad0f240ad51
+  gRPC-Core: f4836515817c0eb479aeeb9cc27c91c4ba62a9f6
+  GTMOAuth2: e8b6512c896235149df975c41d9a36c868ab7fba
+  GTMSessionFetcher: 0c4baf0a73acd0041bf9f71ea018deedab5ea84e
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+
+PODFILE CHECKSUM: 9be8df6562c7aa0569b251294b00154fc482f7b5
+
+COCOAPODS: 1.5.3
